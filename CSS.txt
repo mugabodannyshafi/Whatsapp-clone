@@ -1,0 +1,507 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans',sans-serif;
+}
+body{
+    background-image: url(./Images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.menu ul{
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+}
+.menu .apple-logo img{
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+}
+.menu ul li{
+    background: transparent;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 200;
+}
+.menu .right-apps{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu .right-apps img{
+    cursor: pointer;
+    height: 20px;
+}
+.clone-contents{
+    display: flex;
+    height: 520px;
+    width: 900px;
+    background: whitesmoke;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.clone-contents .side-bar{
+    width: 40%;
+    height: 100%;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+}
+.clone-contents .side-bar .dot{
+    width: 10px;
+    margin-top: 7px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ED6A5E;
+    display: inline-block;
+}
+.clone-contents .side-bar #orange{
+    background: #F6BE4F;
+}
+.clone-contents .side-bar #green{
+    background: #62C554;
+}
+.clone-contents .side-bar .other-side{
+    height: 100%;
+    width: 13%;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+}
+.clone-contents .side-bar .other-side .icons{
+    margin-top: 20px;
+}
+.clone-contents .side-bar .other-side .icons .message img{
+    width: 50px;
+}
+.clone-contents .side-bar .other-side .icons .message b{
+    margin-left: 9px;
+}
+.clone-contents .side-bar .other-side .icons .status img{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.clone-contents .side-bar .other-side .icons .status span{
+    margin-left: 7px;
+}
+.clone-contents .side-bar .other-side .icons .community img{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.clone-contents .side-bar .other-side .icons .calls{
+    position: relative;
+}
+.clone-contents .side-bar .other-side .icons .calls img{
+    width: 65px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.clone-contents .side-bar .other-side .icons .calls span{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+.clone-contents .side-bar .other-side .icons .channels{
+    cursor: pointer;
+}
+.clone-contents .side-bar .other-side .icons .channels img{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.clone-contents .side-bar .other-side .icons .question img{
+    width: 20px;
+    margin-top: 130px;
+    margin-left: 10px;
+}
+.clone-contents .side-bar .other-side .icons .online img{
+    margin-top: 10px;
+    width: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.clone-contents .side-bar .chats{
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    margin-left: 20px;
+    padding-top: -110px;
+}
+.clone-contents .side-bar .chats .edit-down{
+    position: absolute;
+    right: 0;
+}
+.clone-contents .side-bar .chats .edit-down #edit{
+    width: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.clone-contents .side-bar .chats .edit-down #down{
+    width: 20px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.clone-contents .side-bar .chats .search-chats{
+    position: relative;
+    margin-top: 35px;
+    width: 100%;
+    background: #fff;
+}
+.clone-contents .side-bar .chats .search-chats .search input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background: #F0F2F5;
+    outline: none;
+    height: 30px;
+    text-align: center;
+}
+.clone-contents .side-bar .chats .search-chats .search input::placeholder{
+    position: absolute;
+    left: 35px;
+    font-size: 12px;
+}
+.clone-contents .side-bar .chats .search-chats .search img{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .search #unread{
+    margin-left: 85%;
+    margin-top: 3px;
+}
+.clone-contents .side-bar .chats .search-chats .messages{
+    margin-top: 20px;
+    width: 100%;
+    height: 87%;
+}
+.clone-contents .side-bar .chats .search-chats .messages .claire{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.clone-contents .side-bar .chats .search-chats .messages .claire #image{
+    height: 50px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .claire #claire{
+    position: absolute;
+    left: 22%;
+    top: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .claire #message{
+    margin-top: 29px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .claire #pin{
+    height: 10px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
+.clone-contents .side-bar .chats .search-chats .messages .claire span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 7px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .claire:hover{
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joe{
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joe #joe{
+    position: absolute;
+    left: 22%;
+    top: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joe #message{
+    position: absolute;
+    top:  28px;
+    left: 21%;
+    font-size: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joe #pin{
+    height: 10px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joe span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 7px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joe #image{
+    height: 50px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joe:hover{
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .optimus-prime{
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+.clone-contents .side-bar .chats .search-chats .messages .optimus-prime #optimus{
+    position: absolute;
+    left: 22%;
+    top: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .optimus-prime #message{
+    position: absolute;
+    top:  28px;
+    left: 22%;
+    font-size: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .optimus-prime #pin{
+    height: 15px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
+.clone-contents .side-bar .chats .search-chats .messages .optimus-prime span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 7px;
+    color: #24D366;
+}
+.clone-contents .side-bar .chats .search-chats .messages .optimus-prime #image{
+    height: 50px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .optimus-prime:hover{
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .Progate-rwanda{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .Progate-rwanda #progate{
+    position: absolute;
+    left: 22%;
+    top: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .Progate-rwanda #message{
+    position: absolute;
+    top:  28px;
+    left: 22%;
+    font-size: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .Progate-rwanda #pin{
+    height: 15px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
+.clone-contents .side-bar .chats .search-chats .messages .Progate-rwanda span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 7px;
+    color: #24D366;
+}
+.clone-contents .side-bar .chats .search-chats .messages .Progate-rwanda #image{
+    height: 50px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .Progate-rwanda:hover{
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .yves{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .yves #yves{
+    position: absolute;
+    left: 22%;
+    top: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .yves #message{
+    position: absolute;
+    top:  28px;
+    left: 22%;
+    font-size: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .yves #pin{
+    height: 15px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
+.clone-contents .side-bar .chats .search-chats .messages .yves span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 7px;
+    color: #24D366;
+}
+.clone-contents .side-bar .chats .search-chats .messages .yves #image{
+    height: 50px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .yves:hover{
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .mucyo{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .mucyo #mucyo{
+    position: absolute;
+    left: 22%;
+    top: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .mucyo #message{
+    position: absolute;
+    top:  28px;
+    left: 22%;
+    font-size: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .mucyo #pin{
+    height: 15px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
+.clone-contents .side-bar .chats .search-chats .messages .mucyo span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 7px;
+    color: #24D366;
+}
+.clone-contents .side-bar .chats .search-chats .messages .mucyo #image{
+    height: 50px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .mucyo:hover{
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joy{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joy #joy{
+    position: absolute;
+    left: 22%;
+    top: 5px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joy #message{
+    position: absolute;
+    top:  28px;
+    left: 22%;
+    font-size: 10px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joy #pin{
+    height: 15px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joy span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 7px;
+    color: #24D366;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joy #image{
+    height: 50px;
+}
+.clone-contents .side-bar .chats .search-chats .messages .joy:hover{
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.clone-contents .conversation{
+    height: 100%;
+    width: 60%;
+    background: whitesmoke;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.clone-contents .conversation .top{
+    height: 80px;
+    display: inline-block;
+    position: relative;
+    border-top-right-radius: 20px;
+}
+.clone-contents .conversation .top #regis{
+    padding: 10px;
+    height: 60px;
+    margin-top: 10px;
+}
+.clone-contents .conversation .top #name{
+    position: absolute;
+    top: 23px;
+    font-size: 16px;
+    left: 11%;
+}
+.clone-contents .conversation .top #active{
+    margin-left: -5px;
+}
+.clone-contents .conversation .top #video{
+    position: absolute;
+    height: 40px;
+    left: 70%;
+    top: 50%;
+    transform: translate(-70%,-50%);
+}
+.clone-contents .conversation .top #call{
+    position: absolute;
+    height: 25px;
+    left: 80%;
+    top: 50%;
+    transform: translate(-80%,-50%);
+}
+.clone-contents .conversation .top #search{
+    position: absolute;
+    height: 40px;
+    left: 90%;
+    top: 50%;
+    transform: translate(-90%,-50%);
+}
+.clone-contents .conversation .top #down{
+    position: absolute;
+    height: 20px;
+    left: 100%;
+    top: 50%;
+    transform: translate(-100%,-50%);
+}
