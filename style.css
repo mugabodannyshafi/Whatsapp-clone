@@ -55,7 +55,7 @@ body{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    margin-top: 70px;
+    margin-top: 30px;
     border-radius: 20px;
 }
 .clone-contents .side-bar{
@@ -211,6 +211,7 @@ body{
 .clone-contents .side-bar .chats .search-chats .messages .claire{
     height: 50px;
     width: 100%;
+    cursor: pointer;
     display: flex;
     position: relative;
 }
@@ -248,6 +249,7 @@ body{
     height: 50px;
     width: 100%;
     position: relative;
+    cursor: pointer;
 }
 .clone-contents .side-bar .chats .search-chats .messages .joe #joe{
     position: absolute;
@@ -284,6 +286,7 @@ body{
     height: 50px;
     width: 100%;
     position: relative;
+    cursor: pointer;
 }
 .clone-contents .side-bar .chats .search-chats .messages .optimus-prime #optimus{
     position: absolute;
@@ -321,6 +324,7 @@ body{
     width: 100%;
     position: relative;
     margin-top: 10px;
+    cursor: pointer;
 }
 .clone-contents .side-bar .chats .search-chats .messages .Progate-rwanda #progate{
     position: absolute;
@@ -358,6 +362,7 @@ body{
     width: 100%;
     position: relative;
     margin-top: 10px;
+    cursor: pointer;
 }
 .clone-contents .side-bar .chats .search-chats .messages .yves #yves{
     position: absolute;
@@ -395,6 +400,7 @@ body{
     width: 100%;
     position: relative;
     margin-top: 10px;
+    cursor: pointer;
 }
 .clone-contents .side-bar .chats .search-chats .messages .mucyo #mucyo{
     position: absolute;
@@ -432,6 +438,7 @@ body{
     width: 100%;
     position: relative;
     margin-top: 10px;
+    cursor: pointer;
 }
 .clone-contents .side-bar .chats .search-chats .messages .joy #joy{
     position: absolute;
